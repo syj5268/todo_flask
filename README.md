@@ -1,10 +1,10 @@
-## TODO APP
-app.py : CRUD \
-createdb.py -> database.db 
+## TODO APP 1
+[FLASK] app.py : CRUD \
+[Sqlite] createdb.py -> database.db 
 
-## Mysql
-appmysql.py \
-createdbmysql.py
+## TODO APP 2
+[FLASK] appmysql.py \
+[MySQL] createdbmysql.py
 
 ## Docker 
 ### 1 Folder
