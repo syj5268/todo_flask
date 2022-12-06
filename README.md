@@ -7,14 +7,15 @@
 [MySQL] createdbmysql.py
 
 ## Docker 
-### 1 Folder
+### 0. TODO APP 1
+### 1. Folder
 python-docker \
 |____ app.py \
 |____ database.db \
 |____ requirements.txt \
 |____ Dockerfile
 
-### 2 Code
+### 2. Code
 make image : docker build -t {repositoryname}:{tag} . &nbsp; //if not tag, default=latest \
 check image : docker images \
 run container : docker run --publish 8000:5000 {repositoryname}:{tag} 
