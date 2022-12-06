@@ -104,7 +104,7 @@ def delete_task(task_id):
     return message
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app)
 
 
 @app.route('/')
